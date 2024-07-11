@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicosist: Psicoterapia Sistémica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F0F8FF;
+            color: #333;
+        }
+        header {
+            background-color: #FFE4E1;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #6A5ACD;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #AFEEEE;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .contact-info, .social-links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info li, .social-links li {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #FFE4E1;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Psicosist: Psicoterapia Sistémica</h1>
+    </header>
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#costos-paquetes">Costos y Paquetes</a>
+    </nav>
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Arantxa Romero, especialista en Psicoterapia Sistémica. Mi objetivo es proporcionar un espacio de paz y confianza donde puedas explorar y resolver tus inquietudes emocionales y psicológicas.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <ul class="contact-info">
+            <li>Email: <a href="mailto:arantxa@example.com">arantxa@example.com</a></li>
+            <li>Teléfono: +34 123 456 789</li>
+        </ul>
+    </section>
+    <section id="costos-paquetes">
+        <h2>Costos y Paquetes</h2>
+        <p>Ofrezco diferentes paquetes de terapia para adaptarme a tus necesidades. Por favor, contacta conmigo para más detalles.</p>
+    </section>
+    <footer>
+        <ul class="social-links">
+            <li><a href="https://facebook.com/arantxa.romero">Facebook</a></li>
+            <li><a href="https://instagram.com/arantxa.romero">Instagram</a></li>
+            <li><a href="https://twitter.com/arantxa_romero">Twitter</a></li>
+        </ul>
+        <p>&copy; 2024 Psicosist: Psicoterapia Sistémica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
